@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="点击分享页面" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/btn_auth"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="点击进入授权页" />
+
+</LinearLayout>
